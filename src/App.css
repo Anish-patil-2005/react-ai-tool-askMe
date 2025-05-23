@@ -1,0 +1,9 @@
+/* Apply to all divs with overflow-auto */
+.overflow-auto::-webkit-scrollbar {
+  display: none;
+}
+
+.overflow-auto {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;    /* Firefox */
+}
